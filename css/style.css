@@ -1,0 +1,238 @@
+body{
+  width: 100%;
+  height:100%;
+  display:block;
+}
+
+.sidebar {
+  height: 100%;
+  width: 60px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/*main*/
+.container-mainpage{
+  height: 100%;
+  width:100%;
+}
+
+.text-elem {
+  margin-top: 15em;
+  margin-bottom: 15em;
+}
+.text-elem h1{
+  font-family: helvetica;
+  font-size:13vw;
+  font-weight: 550;
+  color: #ec008c;
+  text-transform: uppercase;
+}
+.text-elem span{
+  font-family: helvetica;
+  font-size:13vw;
+  font-weight: 550;
+  color: #ec008c;
+  text-transform: uppercase;
+}
+.text-elem span1{
+  font-family: helvetica;
+  font-size:13vw;
+  font-weight: 500;
+  color: #ec008c;
+  text-transform: uppercase;
+}
+.text-elem span2{
+  padding-top: 0;
+}
+
+/*about me*/
+
+.container-me {
+  margin-top: 8em;
+}
+.img-me {
+  padding-top: 2em;
+  width: 250px;
+  height: 350px;
+}
+.container-about {
+  font-family: helvetica;
+}
+.container-name h2{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.container-name h4{
+  text-transform: uppercase;
+}
+.container-name p1{
+  font-size: 15px;
+  font-weight: 300;
+}
+.container-name span{
+  text-decoration: underline;
+}
+.container-title p1{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.container-about p{
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+
+/*Skills*/
+.container-skill{
+  margin-top: 8em;
+}
+.container-skill h3{
+  font-family: helvetica;
+  text-transform: uppercase;
+}
+.container-skill span{
+  text-decoration: underline;
+}
+
+.skills-bars{
+  width: 100%;
+}
+.skillbar {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #ec008c;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    color: #323232;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.skill-bar-percent {
+    display: inline-block;
+    color: #323232;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.container-skillbar {
+   position: relative;
+   margin-top:10em;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+}
+
+/*portfolio*/
+.container-portfolio h3{
+  font-family: helvetica;
+  text-transform: uppercase;
+}
+.container-portfolio span{
+  text-decoration: underline;
+}
+.container-work1 p{
+  font-family: helvetica;
+  font-weight: 300;
+
+  font-size: 16px;
+}
+.container-work {
+  margin-top: 3em;
+}
+.container-work1 a{
+  color: #ec008c;
+}
+/*contactpage*/
+.container-contact{
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+.btn-ghost, a.btn-ghost {
+    background: #fff;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.row-icon a {
+  color: #ec008c;
+}
+.btn {
+  display: inline-block;
+  white-space: nowrap;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-box-align: center;
+  align-items: center;
+  cursor: pointer;
+  vertical-align: middle;
+  font-weight: 400;
+  /* padding: 0.5em 0.7em; */
+  margin: 0.8em; 
+  margin-bottom: 3.5em;
+  margin-top: 3em;
+}
+
+.row-icon {
+  position: relative;
+  min-height: 1px;
+  flex-wrap: wrap;
+}

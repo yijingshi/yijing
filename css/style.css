@@ -89,11 +89,16 @@ body{
 }
 .img-me {
   padding-top: 2em;
+  padding-bottom: 0.5em;
   width: 250px;
   height: 350px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-about {
   font-family: helvetica;
+ 
 }
 .container-name h2{
   text-transform: uppercase;
@@ -236,3 +241,4 @@ body{
   min-height: 1px;
   flex-wrap: wrap;
 }
+
